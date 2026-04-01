@@ -9,7 +9,7 @@ HX711 scale;
 void setup() {
   Serial.begin(115200);
   scale.begin(DOUT, SCK);
-  delay(500);
+  delay(5000);
   Serial.println("HX711 calibration helper");
   // Give the sensor time to settle
   delay(1000);
